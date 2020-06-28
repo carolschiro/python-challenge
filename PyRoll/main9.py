@@ -19,7 +19,7 @@ with open(csvpath, 'r') as csvfile:
     for i in canidate:
         canidate_count.append(int(len(voter[i])))
         print(canidate_count)
-        break
+        
     
     
     # for i in (range(len(canidate))):

@@ -19,5 +19,4 @@ with open(csvpath, 'r') as csvfile:
 
     for i in canidate:
         total_canidate.append(sum(canidate[i])
-
-    print(total_canidate)
+    
